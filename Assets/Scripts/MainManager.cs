@@ -68,6 +68,11 @@ public class MainManager : MonoBehaviour
         ScoreText.text = $"Score : {m_Points}";
     }
 
+    public int GetPoint()
+    {
+        return m_Points;
+    }
+
     public void GameOver()
     {
         m_GameOver = true;
